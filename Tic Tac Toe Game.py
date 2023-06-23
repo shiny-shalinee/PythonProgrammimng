@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import random
 import sys
 
@@ -103,7 +97,7 @@ while space_exist():
     if not moved:
         print(' >> Invalid number ! Try again !')
         continue
-    #
+    
     if won:
         result='* Congratulations ! You won ! *'
         break
@@ -115,4 +109,4 @@ print_board()
 print(result)
 
 
-# 
+
